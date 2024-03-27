@@ -25,7 +25,7 @@ const fetchData = async () => {
 
   return (
     <div>
-      <h1>Hallo Users</h1>
+      <h1>Hello Users</h1>
       <ol>
         {data.map(user => (
           <li key={user.id}>{user.name}</li>
