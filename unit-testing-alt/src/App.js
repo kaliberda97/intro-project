@@ -26,11 +26,11 @@ const fetchData = async () => {
   return (
     <div>
       <h1>Hello Users</h1>
-      <ol>
+      <ul>
         {data.map(user => (
           <li key={user.id}>{user.name}</li>
         ))}
-      </ol>
+    </ul>
     </div>
   );
 }
